@@ -10,13 +10,13 @@ class Counter extends React.Component{
         };
     }
     
-    componentDidMount(){
-        this.setState({
-            type: this.props.type,
-            val: (this.props.type === 'even' || this.props.type === 'normal') ? 0 : 1,
-             inc: (this.props.type === 'even' || this.props.type === 'odd') ? 2 : 1 
-         });
-    }
+    // componentDidMount(){
+    //     this.setState({
+    //         type: this.props.type,
+    //         val: (this.props.type === 'even' || this.props.type === 'normal') ? 0 : 1,
+    //          inc: (this.props.type === 'even' || this.props.type === 'odd') ? 2 : 1 
+    //      });
+    // }
     
 
     incrementCount = () => {
