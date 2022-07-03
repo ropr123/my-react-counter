@@ -33,7 +33,6 @@ class Counter extends React.Component{
     render(){
         return(
             <div>
-            <h1>Welcome to my React app</h1>
             <h2>{this.state.type} Counter</h2>
             {this.state.val}<br/>
             <button onClick={this.incrementCount}>+</button>
